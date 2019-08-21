@@ -1,5 +1,5 @@
 body {
-    background-color: chartreuse;
+    background-color: gainsboro;
 }
 
 .link-container {
@@ -9,10 +9,19 @@ body {
     margin: 1em;
 }
 
-.link-container a {
-    margin: 1em;
+h1 {
+    color: pink;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
+.puppy-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.puppy-container img {
+    border: pink 1em solid;
+    margin: 1em;
+    width: 500px;
 }
